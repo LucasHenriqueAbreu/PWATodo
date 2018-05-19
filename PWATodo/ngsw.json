@@ -1,0 +1,71 @@
+{
+  "configVersion": 1,
+  "index": "/PWATodo/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/PWATodo/favicon.ico",
+        "/PWATodo/index.html",
+        "/PWATodo/main.b60c98e84984b0132df2.js",
+        "/PWATodo/polyfills.2903ad11212d7d797800.js",
+        "/PWATodo/runtime.6afe30102d8fe7337431.js",
+        "/PWATodo/styles.f6b912d94b59404c9192.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/PWATodo/assets/icons/icon-128x128.png",
+        "/PWATodo/assets/icons/icon-144x144.png",
+        "/PWATodo/assets/icons/icon-152x152.png",
+        "/PWATodo/assets/icons/icon-192x192.png",
+        "/PWATodo/assets/icons/icon-384x384.png",
+        "/PWATodo/assets/icons/icon-512x512.png",
+        "/PWATodo/assets/icons/icon-72x72.png",
+        "/PWATodo/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/PWATodo/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/PWATodo/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/PWATodo/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/PWATodo/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/PWATodo/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/PWATodo/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/PWATodo/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/PWATodo/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/PWATodo/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/PWATodo/index.html": "72daecfb580b856dba3392c31d95602a8d78dc69",
+    "/PWATodo/main.b60c98e84984b0132df2.js": "23917dc2b2e79bc81efe91f412635b8621b93638",
+    "/PWATodo/polyfills.2903ad11212d7d797800.js": "193f6d7b77c2bce633da2f543082303b4f32d7ed",
+    "/PWATodo/runtime.6afe30102d8fe7337431.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/PWATodo/styles.f6b912d94b59404c9192.css": "96d587a404be5c072494a165890daf835e2190ff"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
+}
