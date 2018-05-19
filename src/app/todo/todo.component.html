@@ -1,0 +1,20 @@
+<div class="content" fxLayout="column">
+  <div fxLayout="row" fxLayoutAlign="start center">
+    <mat-form-field>
+      <input matInput placeholder="Descrição da atividade" value="Sushi" [(ngModel)]="todo.desc">
+    </mat-form-field>
+    <span fxFlex></span>
+    <button mat-button (click)="save(todo)">Salvar</button>
+  </div>
+  <div fxFlex>
+    <mat-list>
+      <h3 mat-subheader>Atividades</h3>
+      <mat-list-item *ngFor="let todo of todos">
+        <h4 mat-line>{{todo.desc}}</h4>
+        <button mat-icon-button (click)="delete(todo)">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </mat-list-item>
+    </mat-list>
+  </div>
+</div>
